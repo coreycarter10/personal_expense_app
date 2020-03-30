@@ -19,7 +19,8 @@ class MyApp extends StatelessWidget {
         appBarTheme: AppBarTheme(
           textTheme: ThemeData.light().textTheme.copyWith(
                 title: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),
-              ),
+          button: TextStyle(color: Colors.white),
+          ),
         ),
       ),
       home: MyHomePage(),
